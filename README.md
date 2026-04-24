@@ -2,7 +2,7 @@
 把标准 OpenAI `/v1/chat/completions` 请求桥接到 OpenClaw HTTP Bridge，并将回复转成 SSE 流返回给前端。
 
 
-# LobeChat + OpenClaw 方向二（完整 Agent）复刻步骤
+# LobeChat + OpenClaw（完整 Agent）复刻步骤
 
 在新环境复现当前 MVP 的最小步骤。
 
