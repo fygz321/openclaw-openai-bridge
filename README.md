@@ -102,7 +102,7 @@ const BRIDGE_URL = "http://127.0.0.1:18789/httpbridge/inbound"; // OpenClaw HTTP
 const BRIDGE_TOKEN = "bridge-secret-2024";                       // HTTP Bridge token（需与 openclaw.json 一致）
 const PORT = 18790;                                              // 适配层对外端口
 ```
-
+***18790端口需开放才能从公网访问
 > `BRIDGE_TOKEN` 需与 OpenClaw 配置中 `plugins.entries.openclaw-httpbridge` 的 token 保持一致。
 
 ### 启动
